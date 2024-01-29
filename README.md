@@ -1,4 +1,4 @@
-Develop a Visual C# .NET solution that provides a login authentication service. This solution will have a class library component and two application components contained within the same solution.
+Visual C# .NET solution that provides a login authentication service. This solution will have a class library component and two application components contained within the same solution.
 The LoginAuthenticator Class
 Create a class library project named LibLoginAuthenticator that contains a class named LoginAuthenticator. The LoginAuthenticator class must support the following features:
 The class defines a public string read/write property named Username which gets/sets the Username for the authenticator.
