@@ -1,15 +1,15 @@
-Login Authentication Service
+# Login Authentication Service
 
 **Solution Type**: Visual C# .NET  
 **Components**: Class Library and Console Application with Windows Forms  
 
-Overview
+## Overview
 
 This solution provides a login authentication service built using Visual C# .NET. It contains a class library component (`LibLoginAuthenticator`) that defines a `LoginAuthenticator` class and two application components: a console application and a Windows Forms application.
 
-Components
+## Components
 
-1. Class Library: LibLoginAuthenticator
+### 1. Class Library: LibLoginAuthenticator
 
 The `LoginAuthenticator` class includes the following features:
 
@@ -25,8 +25,8 @@ The `LoginAuthenticator` class includes the following features:
     - Returns `null` if either `Username` or `Password` is `null`.
     - Compares the provided credentials against three hardcoded username/password pairs, including "john" as the username and "doe" as the password.
     - Returns `true` if a matching pair is found; otherwise, returns `false`.
-      
-2. Console Application
+
+### 2. Console Application
 
 The console application prompts the user to enter a username and password. It processes the input as follows:
 
@@ -38,7 +38,7 @@ The console application prompts the user to enter a username and password. It pr
   
 The application loops until a successful login is achieved.
 
-3. Windows Forms Application
+### 3. Windows Forms Application
 
 The Windows Forms application provides a graphical interface for the login process:
 
@@ -59,14 +59,14 @@ The Windows Forms application provides a graphical interface for the login proce
   - `MaximizeBox` property is set to `False`.
   - The Username text box has initial focus when the form is loaded.
 
-Getting Started
+## Getting Started
 
-Prerequisites
+### Prerequisites
 
 - Visual Studio or any C# .NET IDE.
 - .NET Framework installed on your machine.
 
-Running the Solution
+### Running the Solution
 
 1. Open the solution in Visual Studio.
 2. Build the solution to ensure all components are compiled.
